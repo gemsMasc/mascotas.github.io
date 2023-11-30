@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulario.css">
+  <title>Registro de Mascotas</title>
+</head>
+<body>
+<div class="container">
+    <h1> Registro de Mascotas </h1>
+  <form id="mascotaForm">
+    <label for="nombre">Nombre de la mascota:</label>
+    <input type="text" id="nombre" required>
+
+    <label for="especie">Especie:</label>
+    <input type="text" id="especie" required>
+
+    <label for="color">Color:</label>
+    <input type="text" id="color" required>
+
+    <label for="dueno">Dueño:</label>
+    <input type="text" id="dueno" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" required>
+
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" required>
+
+    <button type="button" onclick="guardarMascota()">Guardar</button>
+  </form> </div>
+
+  <script src="app/formulario.js"></script>
+</body>
+</html>
